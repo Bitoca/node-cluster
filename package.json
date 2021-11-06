@@ -1,0 +1,12 @@
+{
+  "name": "node-cluster",
+  "version": "1.0.0",
+  "description": "A simple cluster using NodeJs",
+    "scripts": {
+    "start": "node cluster.js",
+    "start:server": "node server.js",
+    "start:simulateServerCrashing": "node cluster.js simulateServerCrashing"
+  },
+  "author": "Felipe Pinheiro",
+  "license": "ISC"
+}
